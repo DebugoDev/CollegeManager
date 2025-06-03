@@ -1,0 +1,15 @@
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/obj/Debug/net9.0/CollegeManager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/obj/Debug/net9.0/CollegeManager.AssemblyInfoInputs.cache
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/obj/Debug/net9.0/CollegeManager.AssemblyInfo.cs
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/obj/Debug/net9.0/CollegeManager.csproj.CoreCompileInputs.cache
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/obj/Debug/net9.0/CollegeManager.sourcelink.json
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/bin/Debug/net9.0/CollegeManager
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/bin/Debug/net9.0/CollegeManager.deps.json
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/bin/Debug/net9.0/CollegeManager.runtimeconfig.json
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/bin/Debug/net9.0/CollegeManager.dll
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/bin/Debug/net9.0/CollegeManager.pdb
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/obj/Debug/net9.0/CollegeManager.dll
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/obj/Debug/net9.0/refint/CollegeManager.dll
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/obj/Debug/net9.0/CollegeManager.pdb
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/obj/Debug/net9.0/CollegeManager.genruntimeconfig.cache
+/Users/mariapimenta/Documents/CollegeManager/CollegeManager/obj/Debug/net9.0/ref/CollegeManager.dll
