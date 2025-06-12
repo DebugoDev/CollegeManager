@@ -15,7 +15,7 @@ public class CollegeService
     public IReadOnlyList<Student> Students => students.AsReadOnly();
     public IReadOnlyList<Teacher> Teachers => teachers.AsReadOnly();
 
-    public bool RegisterCourse(string code, string name, string description, out string message)
+    public bool RegisterCourse(string? code, string? name, string? description, out string message)
     {
         if (courses.Any(c => c.Code == code))
         {
@@ -30,7 +30,7 @@ public class CollegeService
         return true;
     }
 
-    public bool RegisterStudent(string registration, string name, out string message)
+    public bool RegisterStudent(string? registration, string? name, out string message)
     {
         if (students.Any(s => s.Registration == registration))
         {
@@ -45,7 +45,7 @@ public class CollegeService
         return true;
     }
 
-    public bool RegisterTeacher(string name, string title, string department, out string message)
+    public bool RegisterTeacher(string? name, string? title, string? department, out string message)
     {
         if (teachers.Any(t => t.Name == name && t.Department == department))
         {
@@ -74,7 +74,7 @@ public class CollegeService
             return false;
         }
 
-        if (student.Enrollments.Any(e => e.Course.Code == courseCode))
+        if (student.Enrollments.Any(e => e.Course?.Code == courseCode))
         {
             message = "Aluno já está matriculado nesse curso!";
             return false;

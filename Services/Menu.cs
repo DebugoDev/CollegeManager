@@ -76,13 +76,13 @@ class Menu
         WriteColoredLine("=== Cadastrar Curso ===\n", ConsoleColor.Green);
 
         Console.Write("Código do Curso: ");
-        string code = Console.ReadLine();
+        var code = Console.ReadLine();
 
         Console.Write("Nome do Curso: ");
-        string name = Console.ReadLine();
+        var name = Console.ReadLine();
 
         Console.Write("Descrição do Curso: ");
-        string description = Console.ReadLine();
+        var description = Console.ReadLine();
 
         if (service.RegisterCourse(code, name, description, out string message))
         {
@@ -102,10 +102,10 @@ class Menu
         WriteColoredLine("=== Cadastrar Aluno ===\n", ConsoleColor.Green);
 
         Console.Write("Matrícula do Aluno: ");
-        string registration = Console.ReadLine();
+        var registration = Console.ReadLine();
 
         Console.Write("Nome do Aluno: ");
-        string name = Console.ReadLine();
+        var name = Console.ReadLine();
 
         if (service.RegisterStudent(registration, name, out string message))
         {
@@ -125,13 +125,13 @@ class Menu
         WriteColoredLine("=== Cadastrar Professor ===\n", ConsoleColor.Green);
 
         Console.Write("Nome do Professor: ");
-        string name = Console.ReadLine();
+        var name = Console.ReadLine();
 
         Console.Write("Titulo do Professor: ");
-        string title = Console.ReadLine();
+        var title = Console.ReadLine();
 
         Console.Write("Departamento do Professor: ");
-        string department = Console.ReadLine();
+        var department = Console.ReadLine();
 
         if (service.RegisterTeacher(name, title, department, out string message))
         {
